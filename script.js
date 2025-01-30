@@ -1,4 +1,7 @@
-document.getElementById("addTaskBtn").addEventListener("click", function(){
+document.getElementById("addTaskBtn").addEventListener("click", addTask);
+
+function addTask() {
+
     const taskInput = document.getElementById("taskInput");
     const taskText = taskInput.value.trim();
 
@@ -29,4 +32,4 @@ document.getElementById("addTaskBtn").addEventListener("click", function(){
 
     document.getElementById("taskList").appendChild(taskItem);
     taskInput.value = "";
-});
+}
