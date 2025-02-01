@@ -1,4 +1,5 @@
-document.getElementById("addTaskBtn").addEventListener("click", addTask);
+document.getElementById("addTaskBtn")
+    .addEventListener("click", addTask);
 
 function addTask() {
 
